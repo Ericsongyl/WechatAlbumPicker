@@ -1,4 +1,4 @@
-package com.zhy.bean;
+package com.nicksong.bean;
 
 public class ImageFloder
 {

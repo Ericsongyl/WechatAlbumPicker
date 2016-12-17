@@ -1,4 +1,4 @@
-package com.zhy.utils;
+package com.nicksong.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.zhy.utils.ImageLoader.Type;
+import com.nicksong.utils.ImageLoader.Type;
 
 public class ViewHolder
 {

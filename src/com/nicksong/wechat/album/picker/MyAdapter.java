@@ -1,4 +1,4 @@
-package com.zhy.imageloader;
+package com.nicksong.wechat.album.picker;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 
-import com.zhy.utils.CommonAdapter;
+import com.nicksong.utils.CommonAdapter;
 
 public class MyAdapter extends CommonAdapter<String>
 {
@@ -32,7 +32,7 @@ public class MyAdapter extends CommonAdapter<String>
 	}
 
 	@Override
-	public void convert(final com.zhy.utils.ViewHolder helper, final String item)
+	public void convert(final com.nicksong.utils.ViewHolder helper, final String item)
 	{
 		//设置no_pic
 		helper.setImageResource(R.id.id_item_image, R.drawable.pictures_no);

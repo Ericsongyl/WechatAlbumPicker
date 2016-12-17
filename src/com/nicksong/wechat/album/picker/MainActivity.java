@@ -1,4 +1,4 @@
-package com.zhy.imageloader;
+package com.nicksong.wechat.album.picker;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -29,8 +29,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.zhy.bean.ImageFloder;
-import com.zhy.imageloader.ListImageDirPopupWindow.OnImageDirSelected;
+import com.nicksong.bean.ImageFloder;
+import com.nicksong.wechat.album.picker.ListImageDirPopupWindow.OnImageDirSelected;
 
 public class MainActivity extends Activity implements OnImageDirSelected
 {
@@ -269,6 +269,9 @@ public class MainActivity extends Activity implements OnImageDirSelected
 			@Override
 			public void onClick(View v)
 			{
+				if (mListImageDirPopupWindow == null) {
+					return;
+				}
 				mListImageDirPopupWindow
 						.setAnimationStyle(R.style.anim_popup_dir);
 				mListImageDirPopupWindow.showAsDropDown(mBottomLy, 0, 0);

@@ -1,4 +1,4 @@
-package com.zhy.imageloader;
+package com.nicksong.wechat.album.picker;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-import com.zhy.bean.ImageFloder;
-import com.zhy.utils.BasePopupWindowForListView;
-import com.zhy.utils.CommonAdapter;
-import com.zhy.utils.ViewHolder;
+import com.nicksong.bean.ImageFloder;
+import com.nicksong.utils.BasePopupWindowForListView;
+import com.nicksong.utils.CommonAdapter;
+import com.nicksong.utils.ViewHolder;
 
 public class ListImageDirPopupWindow extends BasePopupWindowForListView<ImageFloder>
 {
